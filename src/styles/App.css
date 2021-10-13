@@ -28,8 +28,17 @@
   color: white;
 }
 
+.mini-text {
+  font-size: 14px;
+  color: white;
+}
+
+.linked {
+  color: #F45C43;
+}
+
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background: -webkit-linear-gradient(left, #EB3349 30%, #F45C43 60%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,13 +58,13 @@
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background: -webkit-linear-gradient(left, #EB3349, #F45C43);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background: -webkit-linear-gradient(left, #EB3349, #F45C43);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-right: 15px;
@@ -63,6 +72,14 @@
 
 .opensea-button {
   background-color: rgb(32, 129, 226);
+}
+
+.disabled {
+  background-color: rgb(64, 95, 126);
+}
+
+.disabled:hover {
+  cursor: wait;
 }
 
 .mint-count {
