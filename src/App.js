@@ -18,7 +18,7 @@ const App = () => {
     const { ethereum } = window;
 
     if (!ethereum) {
-      alert("Make sure you have metamask!");
+      alert("Make sure you have metamask extension installed!");
       return;
     } else {
       console.log("We have the ethereum object", ethereum);
